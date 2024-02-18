@@ -4,6 +4,7 @@ let str = "";
 
 async function getDate() {
   try {
+    myPhoto.innerHTML = "<h5>Loading...</h5>";
     let res = await fetch(
       "https://jsonplaceholder.typicode.com/photos?_limit=10"
     );
@@ -23,5 +24,5 @@ async function getDate() {
     console.error("Xatolik yuz berdi:", err);
   }
 }
-
+myPhoto.innerHTML = "<h5>Loading...</h5>";
 getDate(1, 1);

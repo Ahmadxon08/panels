@@ -3,6 +3,7 @@ let str = "";
 
 async function getDate() {
   try {
+    myComment.innerHTML = "<h5>Loading...</h5>";
     let res = await fetch(
       "https://jsonplaceholder.typicode.com/comments?_limit=10"
     );
@@ -25,5 +26,6 @@ async function getDate() {
     console.error("Xatolik yuz berdi:", err);
   }
 }
+myComment.innerHTML = "<h5>Loading...</h5>";
 
 getDate(1, 1);

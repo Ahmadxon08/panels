@@ -61,6 +61,16 @@ body .ipe .boxs {
   gap: 20px;
   margin-bottom: 100px;
 }
+body .ipe .boxs h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #f8f7f7;
+}
 body .ipe .boxs .box {
   display: flex;
   align-items: start;
@@ -153,6 +163,16 @@ body .ipe .todos {
   gap: 10px;
   margin-bottom: 140px;
 }
+body .ipe .todos h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #f8f7f7;
+}
 body .ipe .todos .todos_input {
   display: flex;
   transition: all 0.3s;
@@ -187,6 +207,16 @@ body .ipe .post {
   width: 1000px;
   gap: 10px;
   margin-bottom: 120px;
+}
+body .ipe .post h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #f8f7f7;
 }
 body .ipe .post .post_input {
   display: flex;
@@ -236,6 +266,16 @@ body .ipe .comments {
   gap: 10px;
   margin-bottom: 120px;
 }
+body .ipe .comments h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #f8f7f7;
+}
 body .ipe .comments .comment {
   display: flex;
   width: 100%;
@@ -276,6 +316,16 @@ body .ipe .galaries {
   gap: 20px;
   margin: 0 auto;
   margin-bottom: 130px;
+}
+body .ipe .galaries h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #f8f7f7;
 }
 body .ipe .galaries .galarey {
   display: flex;
@@ -323,6 +373,16 @@ body .ipe .photos {
   gap: 20px;
   margin: 0 auto;
   margin-bottom: 130px;
+}
+body .ipe .photos h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #f8f7f7;
 }
 body .ipe .photos .photo {
   display: flex;

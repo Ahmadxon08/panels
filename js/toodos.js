@@ -3,6 +3,7 @@ let str = "";
 
 async function getDate() {
   try {
+    myTodos.innerHTML = "<h5>Loading...</h5>";
     let res = await fetch(
       "https://jsonplaceholder.typicode.com/todos?_limit=10"
     );
@@ -20,4 +21,5 @@ async function getDate() {
   }
 }
 
+myTodos.innerHTML = "<h5>Loading...</h5>";
 getDate();

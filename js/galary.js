@@ -3,6 +3,7 @@ let str = "";
 
 async function getDate() {
   try {
+    myPost.innerHTML = "<h5>Loading...</h5>";
     let res = await fetch(
       "https://jsonplaceholder.typicode.com/albums?_limit=10"
     );
@@ -23,5 +24,6 @@ async function getDate() {
     console.error("Xatolik yuz berdi:", err);
   }
 }
+myPost.innerHTML = "<h5>Loading...</h5>";
 
 getDate(1, 1);

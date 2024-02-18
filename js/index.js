@@ -5,6 +5,9 @@ let str=''
 
 async function getDate() {
   try {
+
+    boxs.innerHTML = "<h5>Loading...</h5>";
+
     let res = await fetch('https://jsonplaceholder.typicode.com/users');
     let date = await res.json();
     date.forEach(element => {
@@ -46,6 +49,6 @@ async function getDate() {
     console.error('Xatolik yuz berdi:', err);
   }
 }
-
+boxs.innerHTML = "<h5>Loading...</h5>";
 getDate();
 
